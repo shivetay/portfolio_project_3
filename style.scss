@@ -1,0 +1,82 @@
+/* global */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* navigation */
+
+/* carousel */
+.carousel {
+  &-inner,
+  &-item {
+    height: 100vh;
+  }
+
+  &-item {
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+
+  &-caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    h3 {
+      margin-bottom: 50px;
+    }
+    h4 {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.card {
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+/* service */
+.service {
+  i {
+    padding: 4px 0 0 3px;
+    font-size: 1.6rem;
+  }
+}
+
+/*contact */
+.contact {
+  background: #eff2f5;
+  i {
+    font-size: 1.4rem;
+    padding: 0 2px;
+    color: #37384c;
+  }
+}
+
+/* offer */
+.offer {
+  h5 {
+    color: #ffffff;
+  }
+}
+
+/* service */
+
+.service {
+  .card {
+    background: #a6cfd4;
+  }
+}
+
+/* products */
+.products {
+  .card {
+    background: #efccba;
+  }
+}
